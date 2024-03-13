@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.28)
+project(GFMUL)
+add_subdirectory(include)
+add_executable(gfmul main.cpp)
+target_link_libraries(gfmul PRIVATE GFMUL_LIB)
